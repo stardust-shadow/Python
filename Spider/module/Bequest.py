@@ -8,7 +8,7 @@ import pandas as pd
 class Bequest:
     def __init__(self, url):
         self.url = url
-        self.expired = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/60.0'}
+        self.expired = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; …) Gecko/20100101 Firefox/60.0','Connection': 'close'}
         self.begin_date = 1
         # input('请输入需要获取信息的起始日')
 
